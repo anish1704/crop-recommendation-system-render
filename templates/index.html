@@ -10,22 +10,58 @@
     <h1>Crop Recommendation System</h1>
     <form action="/predict" method="post">
         <label for="N">N:</label>
-        <input type="number" id="N" name="N" step="any" placeholder="Min: 0, Max: 140"><br>
+        <input type="number" id="N" name="N" step="any" placeholder="Min: 0, Max: 140" value="{{ request.form.N }}"><br>
         <label for="P">P:</label>
-        <input type="number" id="P" name="P" step="any" placeholder="Min: 5, Max: 145"><br>
+        <input type="number" id="P" name="P" step="any" placeholder="Min: 5, Max: 145" value="{{ request.form.P }}"><br>
         <label for="K">K:</label>
-        <input type="number" id="K" name="K" step="any" placeholder="Min: 5, Max: 205"><br>
+        <input type="number" id="K" name="K" step="any" placeholder="Min: 5, Max: 205" value="{{ request.form.K }}"><br>
         <label for="temperature">Temperature:</label>
-        <input type="number" id="temperature" name="temperature" step="any" placeholder="Min: 8.83, Max: 43.68"><br>
+        <input type="number" id="temperature" name="temperature" step="any" placeholder="Min: 8.83, Max: 43.68" value="{{ request.form.temperature }}"><br>
         <label for="humidity">Humidity:</label>
-        <input type="number" id="humidity" name="humidity" step="any" placeholder="Min: 14.26, Max: 99.98"><br>
+        <input type="number" id="humidity" name="humidity" step="any" placeholder="Min: 14.26, Max: 99.98" value="{{ request.form.humidity }}"><br>
         <label for="ph">pH:</label>
-        <input type="number" id="ph" name="ph" step="any" placeholder="Min: 3.5, Max: 9.96"><br>
+        <input type="number" id="ph" name="ph" step="any" placeholder="Min: 3.5, Max: 9.96" value="{{ request.form.ph }}"><br>
         <label for="rainfall">Rainfall:</label>
-        <input type="number" id="rainfall" name="rainfall" step="any" placeholder="Min: 20.21, Max: 298.56"><br>
+        <input type="number" id="rainfall" name="rainfall" step="any" placeholder="Min: 20.21, Max: 298.56" value="{{ request.form.rainfall }}"><br>
         <button type="submit">Predict</button>
-    </form>
-    <h2>{{ prediction_text }}</h2>
+     </form>
+    {% if prediction %}
+    <div class="prediction-container">
+        <h2>Recommended Crop: {{ prediction.crop_name }}</h2>
+        <img src="{{ url_for('static', filename='images/' + prediction.image) }}" alt="{{ prediction.crop_name }}">
+        <div class="crop-info">
+            <h3>Growing Tips</h3>
+            <ul>
+                {% for tip in prediction.info.growing_tips %}
+                <li>{{ tip }}</li>
+                {% endfor %}
+            </ul>
+            <h3>Economic Value</h3>
+            <ul>
+                {% for value in prediction.info.economic_value %}
+                <li>{{ value }}</li>
+                {% endfor %}
+            </ul>
+            <h3>Regional Info</h3>
+            <ul>
+                {% for info in prediction.info.regional_info %}
+                <li>{{ info }}</li>
+                {% endfor %}
+            </ul>
+            <h3>Harvesting Info</h3>
+            <ul>
+                {% for info in prediction.info.harvesting_info %}
+                <li>{{ info }}</li>
+                {% endfor %}
+            </ul>
+            <h3>Pests and Diseases</h3>
+            <ul>
+                {% for info in prediction.info.pests_and_diseases %}
+                <li>{{ info }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    {% endif %}
 </body>
 </html>
-

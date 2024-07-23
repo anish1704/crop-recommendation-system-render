@@ -1,0 +1,531 @@
+{
+    "rice": {
+      "crop_image": "rice.jpg",
+      "growing_tips": [
+        "Ensure adequate water supply for paddy fields.",
+        "Maintain proper spacing between plants to prevent overcrowding."
+      ],
+      "economic_value": [
+        "Major staple food with high market demand.",
+        "Profitable due to extensive cultivation and consumption."
+      ],
+      "regional_info": [
+        "Predominantly grown in states like Punjab, Haryana, West Bengal, and Uttar Pradesh.",
+        "Best suited for tropical and subtropical climates."
+      ],
+      "harvesting_info": [
+        "Harvest when grains turn golden and leaves dry out.",
+        "Use combine harvesters or manual cutting for smaller fields."
+      ],
+      "pests_and_diseases": [
+        "Common Pests: Brown planthopper, rice weevil.",
+        "Common Diseases: Blight, rice blast.",
+        "Management: Use pest-resistant varieties, regular monitoring, and appropriate fungicides."
+      ]
+    },
+    "maize": {
+      "crop_image": "maize.jpg",
+      "growing_tips": [
+        "Requires well-drained soil and moderate water.",
+        "Maintain proper spacing for optimal growth and yield."
+      ],
+      "economic_value": [
+        "Used for food, fodder, and industrial purposes.",
+        "High market value due to versatility and wide usage."
+      ],
+      "regional_info": [
+        "Grown in states like Karnataka, Madhya Pradesh, and Bihar.",
+        "Suitable for both tropical and subtropical regions."
+      ],
+      "harvesting_info": [
+        "Harvest when kernels are hard and dry.",
+        "Use combine harvesters or manual methods for smaller plots."
+      ],
+      "pests_and_diseases": [
+        "Common Pests: Corn borer, armyworm.",
+        "Common Diseases: Rust, maize leaf blight.",
+        "Management: Regular pest control measures, crop rotation, and resistant varieties."
+      ]
+    },
+    "jute": {
+      "crop_image": "jute.jpg",
+      "growing_tips": [
+        "Requires high humidity and sufficient rainfall.",
+        "Ensure well-drained, fertile soil for better yield."
+      ],
+      "economic_value": [
+        "Important fiber crop used for making sacks, ropes, and carpets.",
+        "High demand in textile and packaging industries."
+      ],
+      "regional_info": [
+        "Predominantly grown in states like West Bengal, Bihar, and Assam.",
+        "Thrives in humid, tropical climates with heavy rainfall."
+      ],
+      "harvesting_info": [
+        "Harvest when the plants are mature and the leaves start yellowing.",
+        "Use manual methods for cutting and bundling the stalks."
+      ],
+      "pests_and_diseases": [
+        "Common Pests: Jute midge, jute caterpillar.",
+        "Common Diseases: Jute rust, leaf spot.",
+        "Management: Use resistant varieties, proper field sanitation, and timely pest control measures."
+      ]
+    },
+    "cotton": {
+      "crop_image": "cotton.jpg",
+      "growing_tips": [
+        "Requires warm weather and well-drained soil.",
+        "Maintain proper spacing and ensure adequate irrigation."
+      ],
+      "economic_value": [
+        "Major cash crop used in the textile industry.",
+        "High profitability due to extensive use in clothing and textiles."
+      ],
+      "regional_info": [
+        "Grown in states like Gujarat, Maharashtra, and Andhra Pradesh.",
+        "Prefers warm, dry climates with sufficient sunshine."
+      ],
+      "harvesting_info": [
+        "Harvest when the cotton bolls burst open and the fibers are fluffy.",
+        "Use mechanical harvesters or manual picking for small-scale operations."
+      ],
+      "pests_and_diseases": [
+        "Common Pests: Cotton bollworm, aphids.",
+        "Common Diseases: Cotton leaf curl virus, fungal infections.",
+        "Management: Regular pest control, crop rotation, and use of resistant varieties."
+      ]
+    },
+    "coconut": {
+      "crop_image": "coconut.jpg",
+      "growing_tips": [
+        "Requires a tropical climate with plenty of sunlight and rainfall.",
+        "Ensure well-drained soil and proper spacing between trees."
+      ],
+      "economic_value": [
+        "Used for its water, milk, oil, and fiber.",
+        "High demand in food products, cosmetics, and industrial applications."
+      ],
+      "regional_info": [
+        "Grown in states like Kerala, Karnataka, and Tamil Nadu.",
+        "Thrives in coastal areas with high humidity and temperature."
+      ],
+      "harvesting_info": [
+        "Harvest when coconuts are mature and the husks start to dry.",
+        "Use long poles or specialized tools for harvesting."
+      ],
+      "pests_and_diseases": [
+        "Common Pests: Coconut mite, red palm weevil.",
+        "Common Diseases: Coconut wilt, leaf rot.",
+        "Management: Regular monitoring, use of pesticides, and good agronomic practices."
+      ]
+    },
+    "orange": {
+      "crop_image": "orange.jpg",
+      "growing_tips": [
+        "Requires well-drained soil and plenty of sunlight.",
+        "Maintain proper irrigation and pruning for healthy growth."
+      ],
+      "economic_value": [
+        "Popular fruit with high market demand for fresh consumption and juice production.",
+        "Profitable due to extensive use in food and beverages."
+      ],
+      "regional_info": [
+        "Grown in states like Maharashtra, Punjab, and Himachal Pradesh.",
+        "Best suited for subtropical to tropical climates."
+      ],
+      "harvesting_info": [
+        "Harvest when fruits are fully ripe and have developed their color.",
+        "Use hand picking to avoid damage to the fruit."
+      ],
+      "pests_and_diseases": [
+        "Common Pests: Aphids, citrus leaf miner.",
+        "Common Diseases: Citrus canker, greening.",
+        "Management: Regular pest control, use of disease-resistant varieties, and proper field management."
+      ]
+    },
+    "apple": {
+      "crop_image": "apple.jpg",
+      "growing_tips": [
+        "Requires well-drained soil and a temperate climate.",
+        "Ensure proper pruning and pest management."
+      ],
+      "economic_value": [
+        "Highly valued fruit with significant market demand.",
+        "Profitable due to high consumption and use in various products."
+      ],
+      "regional_info": [
+        "Grown in states like Himachal Pradesh, Jammu & Kashmir, and Uttarakhand.",
+        "Prefers temperate climates with cold winters and moderate summers."
+      ],
+      "harvesting_info": [
+        "Harvest when apples are firm and have reached full color.",
+        "Use hand picking to avoid bruising."
+      ],
+      "pests_and_diseases": [
+        "Common Pests: Apple maggot, codling moth.",
+        "Common Diseases: Apple scab, powdery mildew.",
+        "Management: Regular monitoring, use of organic pesticides, and proper orchard management."
+      ]
+    },
+    "muskmelon": {
+      "crop_image": "muskmelon.jpg",
+      "growing_tips": [
+        "Requires warm weather and well-drained soil.",
+        "Provide adequate space for vine growth and proper irrigation."
+      ],
+      "economic_value": [
+        "Popular fruit with high market demand in summer.",
+        "Profitable due to its high value and consumption rate."
+      ],
+      "regional_info": [
+        "Grown in states like Gujarat, Punjab, and Rajasthan.",
+        "Thrives in warm, sunny climates with moderate rainfall."
+      ],
+      "harvesting_info": [
+        "Harvest when the fruit is fully mature and has a sweet aroma.",
+        "Use manual methods to avoid damaging the fruit."
+      ],
+      "pests_and_diseases": [
+        "Common Pests: Melon aphid, cucumber beetle.",
+        "Common Diseases: Powdery mildew, downy mildew.",
+        "Management: Use pest control measures, proper irrigation, and resistant varieties."
+      ]
+    },
+    "watermelon": {
+      "crop_image": "watermelon.jpg",
+      "growing_tips": [
+        "Requires warm weather and sandy, well-drained soil.",
+        "Ensure adequate space for vines and consistent watering."
+      ],
+      "economic_value": [
+        "Highly valued summer fruit with significant market demand.",
+        "Profitable due to its high consumption rate and versatile use."
+      ],
+      "regional_info": [
+        "Grown in states like Karnataka, Maharashtra, and Andhra Pradesh.",
+        "Best suited for warm, sunny climates with moderate rainfall."
+      ],
+      "harvesting_info": [
+        "Harvest when the fruit has a deep color and the tendril near the fruit is dry.",
+        "Use cutting tools to harvest without damaging the vine."
+      ],
+      "pests_and_diseases": [
+        "Common Pests: Watermelon beetle, aphids.",
+        "Common Diseases: Fusarium wilt, anthracnose.",
+        "Management: Regular pest control, crop rotation, and proper field sanitation."
+      ]
+    },
+    "grapes": {
+      "crop_image": "grapes.jpg",
+      "growing_tips": [
+        "Requires well-drained soil and plenty of sunlight.",
+        "Maintain proper pruning and support for vines."
+      ],
+      "economic_value": [
+        "High-value fruit with significant market demand for fresh consumption and wine production.",
+        "Profitable due to its extensive use in food and beverage industries."
+      ],
+      "regional_info": [
+        "Grown in states like Maharashtra, Karnataka, and Punjab.",
+        "Prefers moderate climates with well-defined seasons."
+      ],
+      "harvesting_info": [
+        "Harvest when grapes are fully ripe and have developed a sweet flavor.",
+        "Use manual cutting to avoid damaging the bunches."
+      ],
+      "pests_and_diseases": [
+        "Common Pests: Grape berry moth, spider mites.",
+        "Common Diseases: Powdery mildew, downy mildew.",
+        "Management: Regular pest control, proper vineyard management, and use of resistant varieties."
+      ]
+    },
+    "mango": {
+      "crop_image": "mango.jpg",
+      "growing_tips": [
+        "Requires a tropical climate with plenty of sunlight and well-drained soil.",
+        "Ensure proper watering and pest management."
+      ],
+      "economic_value": [
+        "Highly valued fruit with high market demand.",
+        "Profitable due to its extensive use in food and beverages."
+      ],
+      "regional_info": [
+        "Grown in states like Maharashtra, Karnataka, and Uttar Pradesh.",
+        "Thrives in tropical climates with a warm temperature range."
+      ],
+      "harvesting_info": [
+        "Harvest when mangoes are fully mature and have a sweet aroma.",
+        "Use manual methods to avoid bruising the fruit."
+      ],
+      "pests_and_diseases": [
+        "Common Pests: Mango weevil, fruit fly.",
+        "Common Diseases: Mango leaf webber, anthracnose.",
+        "Management: Regular pest control, proper orchard management, and use of resistant varieties."
+      ]
+    },
+    "banana": {
+      "crop_image": "banana.jpg",
+      "growing_tips": [
+        "Requires a tropical climate with ample sunlight and regular watering.",
+        "Maintain proper spacing and soil fertility for better yield."
+      ],
+      "economic_value": [
+        "Popular fruit with high market demand.",
+        "Profitable due to its extensive use in various food products."
+      ],
+      "regional_info": [
+        "Grown in states like Tamil Nadu, Karnataka, and Kerala.",
+        "Thrives in warm, humid climates with consistent rainfall."
+      ],
+      "harvesting_info": [
+        "Harvest when bananas are fully mature but still green.",
+        "Use cutting tools to avoid damaging the plant."
+      ],
+      "pests_and_diseases": [
+        "Common Pests: Banana aphid, nematodes.",
+        "Common Diseases: Panama disease, black sigatoka.",
+        "Management: Regular pest control, use of disease-resistant varieties, and proper field management."
+      ]
+    },
+    "pomegranate": {
+      "crop_image": "pomegranate.jpg",
+      "growing_tips": [
+        "Requires well-drained soil and plenty of sunlight.",
+        "Ensure proper irrigation and pest control."
+      ],
+      "economic_value": [
+        "High-value fruit with significant market demand.",
+        "Profitable due to its use in juices, culinary dishes, and as fresh fruit."
+      ],
+      "regional_info": [
+        "Grown in states like Maharashtra, Gujarat, and Rajasthan.",
+        "Best suited for arid to semi-arid climates with warm temperatures."
+      ],
+      "harvesting_info": [
+        "Harvest when the fruit has a deep color and a metallic sound when tapped.",
+        "Use manual methods to avoid damaging the fruit."
+      ],
+      "pests_and_diseases": [
+        "Common Pests: Pomegranate butterfly, fruit fly.",
+        "Common Diseases: Pomegranate wilt, bacterial blight.",
+        "Management: Regular pest control, proper irrigation, and use of resistant varieties."
+      ]
+    },
+    "lentil": {
+      "crop_image": "lentil.jpg",
+      "growing_tips": [
+        "Requires well-drained soil and moderate water.",
+        "Ensure proper spacing to prevent overcrowding and disease."
+      ],
+      "economic_value": [
+        "Valuable legume used in various cuisines.",
+        "Profitable due to its high nutritional value and market demand."
+      ],
+      "regional_info": [
+        "Grown in states like Madhya Pradesh, Punjab, and Bihar.",
+        "Best suited for temperate and subtropical climates."
+      ],
+      "harvesting_info": [
+        "Harvest when the pods are dry and brown.",
+        "Use manual or mechanical methods to avoid damage."
+      ],
+      "pests_and_diseases": [
+        "Common Pests: Lentil weevil, aphids.",
+        "Common Diseases: Fusarium wilt, rust.",
+        "Management: Use pest-resistant varieties, proper field management, and crop rotation."
+      ]
+    },
+    "blackgram": {
+      "crop_image": "blackgram.jpg",
+      "growing_tips": [
+        "Requires well-drained soil and moderate water.",
+        "Maintain proper spacing for optimal growth."
+      ],
+      "economic_value": [
+        "Valuable legume used in various culinary dishes.",
+        "Profitable due to its high nutritional value and demand."
+      ],
+      "regional_info": [
+        "Grown in states like Andhra Pradesh, Tamil Nadu, and Karnataka.",
+        "Best suited for tropical and subtropical climates."
+      ],
+      "harvesting_info": [
+        "Harvest when the pods are dry and brown.",
+        "Use manual or mechanical methods to avoid damage."
+      ],
+      "pests_and_diseases": [
+        "Common Pests: Black gram pod borer, aphids.",
+        "Common Diseases: Powdery mildew, blight.",
+        "Management: Use pest-resistant varieties, regular field monitoring, and appropriate pest control measures."
+      ]
+    },
+    "mungbean": {
+      "crop_image": "mungbean.jpg",
+      "growing_tips": [
+        "Requires well-drained soil and moderate water.",
+        "Maintain proper spacing to avoid overcrowding and disease."
+      ],
+      "economic_value": [
+        "Valuable legume used in various dishes and soups.",
+        "Profitable due to its high nutritional value and market demand."
+      ],
+      "regional_info": [
+        "Grown in states like Gujarat, Maharashtra, and Rajasthan.",
+        "Best suited for tropical and subtropical climates."
+      ],
+      "harvesting_info": [
+        "Harvest when the pods are dry and brown.",
+        "Use manual or mechanical methods to avoid damage."
+      ],
+      "pests_and_diseases": [
+        "Common Pests: Mungbean weevil, aphids.",
+        "Common Diseases: Powdery mildew, bacterial wilt.",
+        "Management: Use pest-resistant varieties, regular field monitoring, and appropriate pest control measures."
+      ]
+    },
+    "mothbeans": {
+      "crop_image": "mothbeans.jpg",
+      "growing_tips": [
+        "Requires well-drained soil and moderate water.",
+        "Maintain proper spacing to avoid overcrowding and disease."
+      ],
+      "economic_value": [
+        "Valuable legume used in various dishes and cuisines.",
+        "Profitable due to its high nutritional value and market demand."
+      ],
+      "regional_info": [
+        "Grown in states like Rajasthan, Gujarat, and Maharashtra.",
+        "Best suited for arid to semi-arid climates."
+      ],
+      "harvesting_info": [
+        "Harvest when the pods are dry and brown.",
+        "Use manual or mechanical methods to avoid damage."
+      ],
+      "pests_and_diseases": [
+        "Common Pests: Moth bean pod borer, aphids.",
+        "Common Diseases: Powdery mildew, rust.",
+        "Management: Use pest-resistant varieties, proper field management, and appropriate pest control measures."
+      ]
+    },
+    "pigeonpeas": {
+      "crop_image": "pigeonpeas.jpg",
+      "growing_tips": [
+        "Requires well-drained soil and moderate water.",
+        "Maintain proper spacing to avoid overcrowding and disease."
+      ],
+      "economic_value": [
+        "Valuable legume used in various dishes and cuisines.",
+        "Profitable due to its high nutritional value and market demand."
+      ],
+      "regional_info": [
+        "Grown in states like Maharashtra, Karnataka, and Andhra Pradesh.",
+        "Best suited for tropical and subtropical climates."
+      ],
+      "harvesting_info": [
+        "Harvest when the pods are dry and brown.",
+        "Use manual or mechanical methods to avoid damage."
+      ],
+      "pests_and_diseases": [
+        "Common Pests: Pigeonpea pod borer, aphids.",
+        "Common Diseases: Fusarium wilt, powdery mildew.",
+        "Management: Use pest-resistant varieties, proper field management, and appropriate pest control measures."
+      ]
+    },
+    "kidneybeans": {
+      "crop_image": "kidneybeans.jpg",
+      "growing_tips": [
+        "Requires well-drained soil and moderate water.",
+        "Maintain proper spacing to avoid overcrowding and disease."
+      ],
+      "economic_value": [
+        "Valuable legume used in various dishes and cuisines.",
+        "Profitable due to its high nutritional value and market demand."
+      ],
+      "regional_info": [
+        "Grown in states like Karnataka, Maharashtra, and Andhra Pradesh.",
+        "Best suited for tropical and subtropical climates."
+      ],
+      "harvesting_info": [
+        "Harvest when the pods are dry and brown.",
+        "Use manual or mechanical methods to avoid damage."
+      ],
+      "pests_and_diseases": [
+        "Common Pests: Kidneybean pod borer, aphids.",
+        "Common Diseases: Rust, blight.",
+        "Management: Use pest-resistant varieties, proper field management, and appropriate pest control measures."
+      ]
+    },
+    "chickpea": {
+      "crop_image": "chickpea.jpg",
+      "growing_tips": [
+        "Requires well-drained soil and moderate water.",
+        "Maintain proper spacing to avoid overcrowding and disease."
+      ],
+      "economic_value": [
+        "Valuable legume used in various dishes and cuisines.",
+        "Profitable due to its high nutritional value and market demand."
+      ],
+      "regional_info": [
+        "Grown in states like Gujarat, Maharashtra, and Karnataka.",
+        "Best suited for tropical and subtropical climates."
+      ],
+      "harvesting_info": [
+        "Harvest when the pods are dry and brown.",
+        "Use manual or mechanical methods to avoid damage."
+      ],
+      "pests_and_diseases": [
+        "Common Pests: Chickpea pod borer, aphids.",
+        "Common Diseases: Fusarium wilt, powdery mildew.",
+        "Management: Use pest-resistant varieties, proper field management, and appropriate pest control measures."
+      ]
+    },
+    "coffee": {
+      "crop_image": "coffee.jpg",
+      "growing_tips": [
+        "Requires a tropical climate with ample rainfall and shade.",
+        "Ensure proper soil management and pest control."
+      ],
+      "economic_value": [
+        "Highly valued beverage crop with significant market demand.",
+        "Profitable due to its extensive use in the coffee industry."
+      ],
+      "regional_info": [
+        "Grown in states like Karnataka, Kerala, and Tamil Nadu.",
+        "Prefers tropical climates with moderate temperatures and humidity."
+      ],
+      "harvesting_info": [
+        "Harvest when the coffee cherries are fully ripe and red.",
+        "Use manual methods or mechanical harvesters for larger plantations."
+      ],
+      "pests_and_diseases": [
+        "Common Pests: Coffee borer beetle, whiteflies.",
+        "Common Diseases: Coffee rust, coffee berry disease.",
+        "Management: Regular pest control, proper field management, and use of resistant varieties."
+      ]
+    },
+        "papaya": {
+          "crop_image": "papaya.jpg",
+          "growing_tips": [
+            "Requires a tropical climate with warm temperatures and plenty of sunlight.",
+            "Ensure well-drained soil and regular watering."
+          ],
+          "economic_value": [
+            "Popular fruit with high market demand.",
+            "Profitable due to its use in fresh consumption, juices, and culinary applications."
+          ],
+          "regional_info": [
+            "Grown in states like Karnataka, Tamil Nadu, and Maharashtra.",
+            "Thrives in tropical climates with consistent warmth and humidity."
+          ],
+          "harvesting_info": [
+            "Harvest when the fruit is fully ripe and has a yellowish-orange skin.",
+            "Use manual methods to avoid damaging the plant or fruit."
+          ],
+          "pests_and_diseases": [
+            "Common Pests: Papaya mealybug, fruit flies.",
+            "Common Diseases: Papaya ringspot virus, anthracnose.",
+            "Management: Regular pest control, proper field management, and use of resistant varieties."
+          ]
+        }
+  }
+  

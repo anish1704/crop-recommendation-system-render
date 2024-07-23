@@ -55,3 +55,33 @@ h2 {
     color: #333;
 }
 
+.prediction-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.prediction-container img {
+    max-width: 75%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.crop-info {
+    text-align: left;
+}
+
+.crop-info h3 {
+    color: #333;
+    margin-top: 20px;
+}
+
+.crop-info ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
