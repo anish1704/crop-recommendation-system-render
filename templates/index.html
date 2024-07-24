@@ -25,43 +25,5 @@
         <input type="number" id="rainfall" name="rainfall" step="any" placeholder="Min: 20.21, Max: 298.56" value="{{ request.form.rainfall }}"><br>
         <button type="submit">Predict</button>
      </form>
-    {% if prediction %}
-    <div class="prediction-container">
-        <h2>Recommended Crop: {{ prediction.crop_name }}</h2>
-        <img src="{{ url_for('static', filename='images/' + prediction.image) }}" alt="{{ prediction.crop_name }}">
-        <div class="crop-info">
-            <h3>Growing Tips</h3>
-            <ul>
-                {% for tip in prediction.info.growing_tips %}
-                <li>{{ tip }}</li>
-                {% endfor %}
-            </ul>
-            <h3>Economic Value</h3>
-            <ul>
-                {% for value in prediction.info.economic_value %}
-                <li>{{ value }}</li>
-                {% endfor %}
-            </ul>
-            <h3>Regional Info</h3>
-            <ul>
-                {% for info in prediction.info.regional_info %}
-                <li>{{ info }}</li>
-                {% endfor %}
-            </ul>
-            <h3>Harvesting Info</h3>
-            <ul>
-                {% for info in prediction.info.harvesting_info %}
-                <li>{{ info }}</li>
-                {% endfor %}
-            </ul>
-            <h3>Pests and Diseases</h3>
-            <ul>
-                {% for info in prediction.info.pests_and_diseases %}
-                <li>{{ info }}</li>
-                {% endfor %}
-            </ul>
-        </div>
-    </div>
-    {% endif %}
 </body>
 </html>

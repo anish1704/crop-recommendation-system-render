@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, url_for
+from flask import Flask, render_template, request, redirect, url_for
 import numpy as np
 import joblib
 import logging
@@ -68,7 +68,7 @@ def predict():
             'info': crop_details
         }
         
-        return render_template('index.html', prediction=prediction_data)
+        return render_template('predict.html', prediction=prediction_data)
     except Exception as e:
         logging.error("Error during prediction: %s", e)
         return render_template('index.html', prediction_text=f"Error: {e}")
